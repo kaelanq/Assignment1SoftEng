@@ -1,12 +1,12 @@
-package test;
+package test.java;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import main.Student;
+import main.java.Student;
 
-public class Tests {
+public class StudentTest {
 	
 	@Test
 	public void testGetUsername() {

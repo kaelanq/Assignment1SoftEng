@@ -1,13 +1,13 @@
-package test;
+package test.java;
 
 import static org.junit.Assert.*;
 
 import org.joda.time.DateTime;
 import org.junit.Test;
 
-import main.Course;
-import main.Module;
-import main.Student;
+import main.java.Course;
+import main.java.Module;
+import main.java.Student;
 
 public class CourseTest {
 

@@ -1,6 +1,6 @@
-package main;
+package main.java;
 
-import main.Student;
+import main.java.Student;
 
 public class Module {
 
