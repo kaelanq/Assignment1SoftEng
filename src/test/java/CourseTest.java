@@ -60,7 +60,7 @@ public class CourseTest {
 	@Test
 	public void testToString() {
 		assertEquals("Course Name: ECE"
-				+ "\nStart Date: 29/09/2020"
+				+ "\nStart Date: 28/09/2020"
 				+ "\nEnd Date: 02/06/2021"
 				+ "\nModules:\n\nName: Software Engineering\nID: CT417"
 				+ "\nStudents: John22, Mary22"  
