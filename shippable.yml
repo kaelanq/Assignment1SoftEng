@@ -8,3 +8,4 @@ build:
     - mkdir -p shippable/testresults
     - mkdir -p shippable/codecoverage
     - mvn clean verify
+    - cp target/surefire-reports/* shippable/testresults
