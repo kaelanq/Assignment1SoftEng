@@ -8,9 +8,19 @@ import main.java.Student;
 
 public class StudentTest {
 	
+	// create test student
+	Student john = new  Student("John", "22", "020298", "17358875");
+	
+	// test getUsername() method
 	@Test
 	public void testGetUsername() {
-		Student james = new  Student("James", "22", "110698", "17358875");
-		assertEquals("James22", james.getUsername());
+		assertEquals("John22", john.getUsername());
+	}
+	
+	// test set/getAge() methods
+	@Test
+	public void testSetGetAge() {
+		john.setAge("23");
+		assertEquals("23", john.getAge());
 	}
 }

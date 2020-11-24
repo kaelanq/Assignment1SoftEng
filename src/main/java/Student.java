@@ -2,12 +2,13 @@ package main.java;
 
 public class Student {
 
+		// instance variables
 		private String name;
 		private String age;
 		private String DOB;
 		private String ID;
-		private String modules;
 		
+		// constructor
 		public Student(String name, String age, String DOB, String ID) {
 			this.name = name;
 			this.age = age;
@@ -15,6 +16,8 @@ public class Student {
 			this.ID = ID;
 		}
 		
+		// getters and setters
+		// set username to name concat. age and return 
 		public String getUsername() {
 			return name + age;
 		}
@@ -50,15 +53,8 @@ public class Student {
 		public void setID(String iD) {
 			ID = iD;
 		}
-
-		public String getModules() {
-			return modules;
-		}
-
-		public void setModules(String modules) {
-			this.modules = modules;
-		}
 		
+		// toString() method
 		public String toString() {
 			return getUsername();
 		}
