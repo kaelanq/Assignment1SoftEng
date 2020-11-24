@@ -65,7 +65,7 @@ public class CourseTest {
 				+ "\nModules:\n\nName: Software Engineering\nID: CT417"
 				+ "\nStudents: John22, Mary22"  
 				+ "\n\nName: Digital Signal Processing\nID: EE445"
-				+ "\nStudents: Mary22, Partick25" , ece.toString());
+				+ "\nStudents: Mary22, Patrick25" , ece.toString());
 	}
 
 }
